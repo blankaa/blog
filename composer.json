@@ -1,0 +1,23 @@
+{
+    "name": "blankaa/blog",
+    "description": "Overblijfplaats PHPixie blog module",
+    "keywords": ["phpixie", "blog"],
+    "homepage": "http://overblijfplaats.eu",
+    "type": "library",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Eric van overblijfplaats",
+            "email": "eric@overblijfplaats.eu",
+            "homepage": "http://overblijfplaats.eu"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"Overblijfplaats": "classes/"}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
